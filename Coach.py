@@ -15,7 +15,6 @@ class Coach():
     """
     def __init__(self, game, nnet, args):
         self.game = game
-        # self.board = game.getInitBoard()
         self.nnet = nnet
         self.pnet = self.nnet.__class__(self.game)  # the competitor network
         self.args = args
