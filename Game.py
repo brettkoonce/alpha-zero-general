@@ -66,9 +66,7 @@ class Game():
             player: current player (1 or -1)
 
         Returns:
-            r: 0 if game has not ended. 1 if player won, -1 if player lost,
-               small non-zero value for draw.
-               
+            r: 0 if game has not ended. 1 if player won, -1 if player lost.
         """
         pass
 
